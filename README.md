@@ -17,3 +17,14 @@ Several hyperparameters are set for the model, including the learning rate, batc
 The results of the project demonstrate the effectiveness of the proposed deep neural network model for evaluating the quality of skull stripped MRI images. The accuracy of the model is assessed using test accuracy metrics, and the performance is found to be satisfactory.
 
 Overall, this project presents a novel approach to streamline the evaluation of skull stripping processes in brain MRI images, reducing the need for manual inspection and providing accurate assessments of image quality.
+
+
+How to run the code?
+Step 1: Download the dataset from the link provided in the Dataset section. The dataset folder will be named as BSE_BET_DATA. The folder BSE_BET_DATA contains a subfolder called files and a labels.csv.
+Step 2: Download the Quality_Evalution_Model.ipynb and place inside the folder BSE_BET_DATA.
+Step 3: Execute each cell of the Quality_Evalution_Model.ipynb file. The 3D convolutional model will be build and will be trained for 35 epcohs. After the model is trained, it will be saved inside a folder named Model. (Note: Make sure to create a folder called Model to save the trained model). In later steps the saved model is loaded and evaluated using test dataset.
+At the end, the model accuracies(ie.e., train, validation and test accuracies) are also saved and loaded to plot the accuracy vs epoch graph.
+
+Contributors
+Lakshmi Gayathri
+Tejaswine Kantu
