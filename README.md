@@ -12,6 +12,10 @@ The network architecture consists of three 3D convolutional layers and three ful
 
 The software used for this project is Python with the PyTorch deep learning framework. Additional libraries such as nibabel and torchsummary are utilized for reading input images and displaying metrics in a tabular format, respectively.
 
+<br>
+
+</br>
+
 Several hyperparameters are set for the model, including the learning rate, batch size, number of epochs, optimizer (ADAM), and threshold value for determining class labels.
 
 The results of the project demonstrate the effectiveness of the proposed deep neural network model for evaluating the quality of skull stripped MRI images. The accuracy of the model is assessed using test accuracy metrics, and the performance is found to be satisfactory.
